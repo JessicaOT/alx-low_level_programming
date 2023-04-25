@@ -1,14 +1,14 @@
 #include <stdio.h>
 
 /**
- * main - prints all single digits of base 10 starting from 0
+ * main - prints all strings from 0 to 9
  * Return: Always 0
  */
 int main(void)
 {
 	int num;
 
-	for (num = 0; num = 9; num++)
+	for (num = 0; num <= 9; num++)
 		printf("%d", num);
 
 	printf("\n");
